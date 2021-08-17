@@ -21,8 +21,6 @@ services:
         container_name: db
         restart: always
         tty: true
-        volumes:
-            - ./mysql/db:/var/lib/mysql
         environment: 
             - MYSQL_DATABASE=dockerdesafio02
             - MYSQL_ROOT_PASSWORD=root
