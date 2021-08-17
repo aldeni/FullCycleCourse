@@ -16,7 +16,7 @@ app.set('view engine', 'ejs')
 
 app.get('/', (req, res) => {
     const cnn = mysql.createConnection(config)
-    const sqlinsert = `INSERT INTO people (name) VALUES ('Jose');`
+    const sqlinsert = `INSERT INTO people (name) VALUES ('Aldeni');`
 
     cnn.query(sqlinsert)
 
